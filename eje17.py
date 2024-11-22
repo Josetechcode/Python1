@@ -5,7 +5,7 @@ print ("*** PROGRAMA QUE INFORMA EL SIGNO ZODIACAL")
 Mes = 13
 while Mes < 1 or Mes > 12:
 
-    Mes = int(input("Ingresar el mes de nacimiento:\n1. Ene.\n2. Feb.\n3. Mar.\n4. Abr.\n5. May.\n6. Jun.\n7. Jul.\n8. Ago.\n9. Sept.\n10. Oct.\n11. Nov.\n12. Dic.\n \n"))
+    Mes = int(input("Ingresar el mes de nacimiento:\n1. Ene. 2. Feb. 3. Mar. 4. Abr. 5. May. 6. Jun.\n7. Jul. 8. Ago. 9. Sept. 10. Oct. 11. Nov. 12. Dic.\n"))
     print("")
 
 # PROMPTING THE USER THE DAY OF THE MONTH
@@ -65,7 +65,7 @@ elif Mes == 7:
 
 # CHECKING AUG
 elif Mes == 8:
-    if Dia >= _:
+    if Dia >= 23:
         print("Su signo zodiacal es Virgo.")
     else:
         print("Su signo zodiacal es Leo.")
