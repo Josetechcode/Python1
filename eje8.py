@@ -2,17 +2,17 @@
 print ("*** PROGRAMA QUE CALCULA NÓMINA DE UNA EMPRESA ***")
 # PROMPT THE USER CONTRACT TYPE AND WORKED HOURS
 
-Contr = 0
-while Contr != 1 and Contr != 2: 
+C = 0
+while C != 1 and C != 2: 
   
-  Contr = int(input("QUÉ TIPO DE CONTRATO TIENE EL COLABORADOR:\n1. PLANTA.\n2. ADMINISTRATIVO.\n"))
+  C = int(input("QUÉ TIPO DE CONTRATO TIENE EL COLABORADOR:\n1. PLANTA.\n2. ADMINISTRATIVO.\n"))
 
 Hours = int(input("INGRESAR CANTIDAD DE HORAS TRABAJADOS: "))
 
 # CHECKING THE CONTRACT TYPE
-if Contr == 1:
+if C == 1:
   # DISPLAY SALARY
   print("EL SALARIO DEVENGADO ES ",Hours * 20000,"$COP.")
-elif Contr == 2:
+elif C == 2:
   # DISPLAY SALARY
   print("EL SALARIO DEVENGADO ES ",Hours * 10000,"$COP.")
