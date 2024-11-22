@@ -33,16 +33,16 @@ while i < Num:
                 # APPLICANTS WHO DIDN´T PASS ACCEPTED IN THE TEAM
                 l += 1
                 # DISPLAYING APPLICATION RESULT
-                print("¡No puedes ser aceptado en el equipo de basketball!")
+                print("¡No puede ser aceptado en el equipo de basketball!")
         else:
             # APPLICANTS WHO DIDN´T PASS ACCEPTED IN THE TEAM COUNTER
             l += 1
             # DISPLAYING APPLICATION RESULT
-            print("¡No puedes ser aceptado en el equipo de basketball!")
+            print("¡No puede ser aceptado en el equipo de basketball!")
     else:
         # APPLICANTS WHO DIDN´T PASS ACCEPTED IN THE TEAM COUNTER
         l += 1
         # DISPLAYING APPLICATION RESULT
-        print("¡No puedes ser aceptado en el equipo de basketball!")
+        print("¡No puede ser aceptado en el equipo de basketball!")
 
-print(k," = entraron al equipo.\n",j," = pasaron dos requisitos de tres.\n",l," = no lograron entrar al equipo.")
+print("*** RESULTADO ***\n",k," = entraron al equipo.\n",j," = pasaron dos requisitos de tres.\n",l," = no lograron entrar al equipo.")
